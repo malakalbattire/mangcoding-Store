@@ -217,6 +217,10 @@ header .auth .register {
   flex-direction: column;
   gap: 10px;
 }
+.about-us .item:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
 
 .about-us .item .about-us-svg {
   width: fit-content;
